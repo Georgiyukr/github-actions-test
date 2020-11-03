@@ -5,7 +5,7 @@ jobs:
         strategy:
             matrix:
                 os: [macos-latest, ubuntu-latest, windows-latest]
-                node-version: [6, 8, 10]
+                node_version: [6, 8, 10]
                 include: # add extra parameters to the existent configuration
                     - os: ubuntu-latest
                       node_version: 8
